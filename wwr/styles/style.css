@@ -9,6 +9,7 @@
  #hero-msg h1, #hero-msg h4{
    text-align: center;
  }
+ 
  .button-box{
    text-align: center;
  }
@@ -122,6 +123,7 @@
  }
  #hero-img{
    width: 100%;
+   height: auto;
  }
  footer p{
    font-size: 1.2em;
