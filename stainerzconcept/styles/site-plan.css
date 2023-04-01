@@ -33,7 +33,7 @@ body {
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
-  text-align: right;
+  text-align: center;
 }
 img {
   display: block-size ;
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--headline-color-on-white);
 }
 h2 {
-  text-align: left;
+  text-align: center;
 }
 hr {
   height: 3px;
