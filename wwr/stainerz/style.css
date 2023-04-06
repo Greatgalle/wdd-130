@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    background-image: url(image/rollers.jpg);
+    
+}
+
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 200px;
+    font-size: 17px;
+
+}
+ul li{
+    display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    
+}
+ul a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+
+}
+.search-container{
+    float: left;
+  }
+  input[type=text]{
+    padding: 6px;
+    margin-top: 13px;
+    font-size: 17px;
+    border: none;
+  }
+  .search-container button{
+    float: left;
+    padding: 6px 10px;
+    margin-top: 13px;
+    margin-right: 20px;
+    background: #314587;
+    color: #fff;
+    font-size: 17px;
+     border: none;
+     cursor: pointer;
+  }
+  .search-container button:hover{
+    background: orange;
+  }
+ .logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50% -50%);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.title h1{
+    color: #fff;
+    font-size: 50px;
+}
+.button{
+    position: absolute;
+    top: 64%;
+    left: 30%;
+    transform: translate(-50% -50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration:none;
+}
+footer{
+    background-color: white#022e06;
+    padding: 25px 100px;
+    margin-top: 0 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(image/rollers.jpg);
+
+}
+footer a:hover{
+    background-color: #314587;
+    color: #000;
+}
+footer a{
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}   
+
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+   }
+   .rivers-card{
+    text-align: center;
+  }
+  .camping-card{
+    text-align: center;
+    
+  }
+  .rapids-card{
+    text-align: center;
+  }
+
+.card-img {
+ border: 10px solid #d9c2a3;
+ transition: transform .5s;
+ box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+ opacity: .6;
+ transform: scale(1.1);
+}
